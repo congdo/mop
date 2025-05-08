@@ -1,6 +1,7 @@
 name: mop mvn build check and ut
 
 on:
+  workflow_dispatch:  # 👈 Enables manual trigger from GitHub UI
   pull_request:
     branches:
       - branch-*
